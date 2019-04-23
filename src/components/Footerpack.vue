@@ -40,16 +40,15 @@ export default {
 @import '../assets/global.scss';
 
 .test-ackage {
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 5rem 1rem;
   background: white;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 7px;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: space-around;
+  @media only screen and (max-width: $bp-medium) {flex-wrap: wrap;}
   .test-ackage-left {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .test-ackage_details{
     display: flex;

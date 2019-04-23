@@ -65,7 +65,6 @@ export default {
   align-items: center;
   .trialpack-slider-img {
     @media screen and (max-width: $bp-large) and (min-width: $bp-medium) {width: 45%;}
-    // @media screen and (max-width: $bp-medium) and (min-width: $bp-small) {width: 40%;}
     text-align: center;
     margin-bottom: 59px;
     img {
@@ -77,8 +76,6 @@ export default {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    // @media screen and (max-width: $bp-large) and (min-width: $bp-medium) {width: 35%;}
-    // @media screen and (max-width: $bp-medium) and (min-width: $bp-small) {width: 30%;}
     @media only screen and (max-width: $bp-medium) {width: 100%;}
     h2 {
       font-size: 1.688rem;
@@ -92,8 +89,7 @@ export default {
     }
     .trialpack-slider-info-box {
         display: flex; 
-        // flex-wrap: wrap; 
-        @media only screen and (max-width: 355px) {flex-wrap: wrap;}
+        @media only screen and (max-width: 332px) {flex-wrap: wrap;}
         justify-content: space-between;
         list-style: none;  
         margin-bottom: 30px;
